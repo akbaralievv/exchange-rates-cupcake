@@ -1,6 +1,15 @@
 body {
   font-family: Arial, sans-serif;
 }
+.title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.title img {
+  width: 200px;
+}
 
 .exchange-rates-table {
   width: 100%;
