@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 
+import { Rate } from '../types';
 import { fetchInitialRates, fetchPollRates } from '../api';
 import { transformRates } from '../utils/transform';
-import { Rate } from '../types';
 
 const useRates = () => {
   const [rates, setRates] = useState<Rate[]>([]);
